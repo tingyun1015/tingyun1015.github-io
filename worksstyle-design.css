@@ -1,0 +1,77 @@
+h3{
+  text-align: center;
+
+}
+.credit{
+  text-align: center;
+  margin: 0 0 30px 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.part h5{
+  text-align: center;
+}
+.design-02-2-1 h4{
+  text-align: center;
+}
+
+.design-02-2-1 p{
+  text-align: center;
+}
+.design-02-2-1 img{
+  width: 120px;
+  margin: 10px auto;
+  display: block;
+
+}
+.center{
+  text-align: center;
+}
+.design-03-logo{
+  width: 110px;
+  height: auto;
+}
+.design-03-0{
+  width: auto;
+  height: 230px;
+}
+.design-05 img{
+  width: 95%;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+.center{
+  text-align: center;
+}
+.design-05{
+  display: block;
+  margin: 50px auto;
+}
+.design-05 p{
+  text-align: center;
+
+}
+.mockup-desktop{
+  width: 30%;
+  height: 250px;
+  overflow-y: scroll;
+  background: #ddd;
+  box-shadow: rgba(100, 100, 100, 0.5) 0 0 20px;
+  display: block;
+  margin: 50px auto;
+}
+
+.mockup-desktop img{
+  width: 100%;
+}
+@media (max-width:1000px) {
+.img-bg{
+  width: 95%;
+}
+.mockup-desktop{
+  width: 95%;
+}
+}

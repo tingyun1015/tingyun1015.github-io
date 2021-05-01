@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,500,700');
+
+body{
+  font-family: "Noto Sans TC","微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", sans-serif;
+  margin: auto;
+  padding: none;
+}
+
+.container{
+  width:1440px;
+  margin:0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+button {
+  font-size: 20px;
+  font-weight: 600;
+  color:#FFF;
+  background-color: #00BE46;
+  height:40px;
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px #F0F0F0;
+  border-style: none;
+}
+
+button:hover{
+  background-color: #FFF;
+  color:#00BE46;
+  border-width: 2px;
+  border-color: #00BE46;
+  cursor: pointer;
+  border-style: solid;
+}
+.nav_button{
+  width:135px;
+  float: right;
+  margin-right: 3%;
+  margin-top: 20px;
+
+}
+.nav_logo{
+  margin-top: 3px;
+  margin-left: 3%;
+  height: 75px;
+}
+.nav{
+  height:80px;
+  width:100vw;
+  top: 0px;
+  left:0px;
+  position: fixed;
+  padding: 0px;
+  margin: none;
+  background-color: #FFF;
+  box-shadow: 0px 3px 6px #F5F5F5;
+}
+
+.banner{
+  background-image: url(
+    'img/banner_background.jpg'
+    );
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-top: 120px;
+  height:400px;
+  float: inherit;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.banner_img{
+  width: 803px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+.banner_button{
+  width:230px;
+  height: 40px;
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.train{
+  background-image: url(
+    'img/train.jpg'
+    );
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+}
+.train_img{
+  margin-right: 5%;
+  float: right;
+  margin-top: 75px;
+}
+.agenda{
+  margin-top: 80px;
+  height: 1850px;
+}
+
+.agenda_container{
+  width:1000px;
+  margin-top:80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.agenda_timeline_1{
+  display: none;
+}
+.agenda_timeline{
+  background-image: url(
+        'img/agenda.png'
+      );
+      height: 1700px;
+    background-repeat: no-repeat;
+    background-position: top;
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.agenda_button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1550px;
+}
+h1{
+  color: #4267A5;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  line-height:70px;
+  letter-spacing: 3px;
+  height: 70px;
+  width: 900px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style:solid;
+  border-spacing: 10px;
+  border-radius:70px;
+  border-width: 2px;
+  border-color: #4267A5;
+
+}
+
+.organizer{
+  background-image: url('img/organizer_background.jpg');
+  height: 630px;
+  display: block;
+  margin-top:  auto;
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
+}
+
+.organizer_p{
+  text-align: center;
+  color: #FFF;
+  padding-top: inherit;
+  padding-bottom: 20px;
+  position:absolute;
+  bottom:0px;
+  padding: 0px 10%;
+  font-weight: 700;
+}
+
+h2{
+  font-size: 36px;
+  letter-spacing: 4px;
+  font-weight: 600;
+}
+h3{
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+p{
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing:1px;
+  margin-top: -20px;
+}
+
+.tainan{
+  line-height:45px;
+  height: 45px;
+  width: 180px;
+  border-style:solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 10px;
+  border-radius:70px;
+  border-width: 2px;
+  border-color: #FFF;
+}
+
+.co-organizer{
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.co-organizer_img{
+  margin: auto;
+  width: 80%;
+  display: block;
+}
+
+.schedule{
+  background-color: #F4F4F4;
+  height: 680px;
+  padding: 40px;
+}
+
+
+
+.title_blue{
+  color: #4267A5;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.left{
+  float: left;
+}
+
+.schedule_container{
+  width:1024px;
+  margin:0 auto;
+}
+
+.schedule_grid{
+  display: grid;
+  grid-template-columns: 45% 40%;
+  grid-column-gap: 10%;
+  grid-row-gap: 5%;
+}
+
+
+.schedule_icon{
+  margin: 20px 40px 0px 0px;
+}
+
+h4{
+  color: #4267A5;
+  font-size:36px;
+  margin: 0;
+  letter-spacing: 4px;
+}
+h5{
+  font-size:26px;
+  margin: 0;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+#form{
+  margin-bottom: 100px;
+}
+.form_title{
+  color: #4267A5;
+  text-align: center;
+}
+.form_content{
+  text-align: center;
+  margin: auto 5% 5% 5%;
+}
+
+.remarks{
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0px;
+  width: 100vw;
+}
+
+.footer_1{
+  background-color: #1E1E1E;
+}
+
+.footer_container{
+  padding-top: 50px;
+  width: 1200px;
+  height: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer_content{
+  color: #FFF;
+  font-size: 14px;
+  }
+
+.footer_link{
+  color:#CCC;
+    font-size: 14px;
+}
+.footer_left{
+  float: left;
+  padding-left: 10%;
+
+}
+.footer_right{
+  text-align: right;
+  float: right;
+  padding-right: 10%;
+}
+.footer_2{
+  background-color: #00BE46;
+  width: 100vw;
+  height: 30px;
+  line-height: 30px;
+  color: #FFF;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.footer_2:hover{
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.thankyoupage{
+  background-image: url(
+    'img/thank_img.jpg'
+    );
+          height: 100%;
+          background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+  color: #FFF;
+  padding-top: 6%;
+  padding-left: 5%;
+  padding-right: 2%;
+
+  padding-bottom: 20%;
+}
+.thankyoupage_button_1{
+  width:200px;
+  height: 40px;
+  margin-top: 20px;
+        box-shadow: none;
+}
+
+.thankyoupage_button_2{
+  width:200px;
+  height: 40px;
+  margin-top: 20px;
+        box-shadow: none;
+}
+@media screen and (max-width: 1440px) {
+
+    .container{
+      width:100vw;
+      margin: none;
+    }
+
+    .nav{
+      width: 100vw;
+    }
+    .agenda_container{
+      width: 100vw;
+    }
+    .footer_container{
+      width: 100vw;
+    }
+
+  }
+@media screen and (max-width: 1024px) {
+
+  .agenda_timeline{
+    background-image: url(
+          'img/agenda_1024.png'
+        );
+      }
+      .schedule{
+        height: 980px;
+        padding: 2%;
+      }
+      .schedule_container{
+        width:95%;
+        margin: none;
+ }
+
+      .schedule_grid{
+        display: block;
+        width:480px;
+        margin-left: auto;
+        margin-right: auto;
+
+      }
+      .schedule_one{
+        margin-bottom: 3%;
+        width: 95%;
+      }
+      .banner_button{
+          width:30%;
+          height: 50px;
+          border-radius:30px;
+          font-size: 25px;
+        }
+
+}
+
+@media screen and (max-width: 800px) {
+
+
+
+.banner_img{
+  width:110%;
+    background-image:none;
+  }
+.thankyoupage{
+    background-image: url(
+      'img/thank_img_800.jpg'
+      );
+      height: 100%;
+                background-size: cover;
+              background-repeat: no-repeat;
+              background-position: bottom;
+    }
+  .footer_right{
+    display: none;
+  }
+  h1{
+    text-align: center;
+    line-height:60px;
+    letter-spacing: 3px;
+padding-left: 2%;
+padding-right: 2%;
+padding-bottom: 6%;
+margin-top: 6%;
+    border-style:none;
+    width: auto;
+
+  }
+.train_img{
+  display: none;
+}
+.agenda_timeline_1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3%;
+  padding-right: 3%;
+  width: 95%;
+}
+.agenda_timeline{
+  background-image: none;
+  height: 100%;
+}
+.agenda_button{
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 80px;
+}
+.agenda{
+  margin-top: 80px;
+  height: auto;
+}
+
+.train{
+  background-image:none;
+  height: 100%;
+}
+.banner{
+  height: 100%;
+}
+.nav_logo{
+    margin-top: 10px;
+    margin-left: 0%;
+    height: 65px;
+  }
+
+.nav_button {
+  margin-right: 5%;
+}
+
+  }

@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+	letter-spacing: 1.5px;
+}
+.welcome{
+		position: fixed;
+		top:30%;
+		left: 30%;
+		fill:#03256C;
+		animation: fade-out 300ms ease-in-out;
+		animation-fill-mode: backwards;
+
+}
+@keyframes fade-out {
+	0%{
+		opacity: 100%;
+	}
+	100%{
+		opacity: 0%;
+	}
+
+}
+
+h2{
+	font-size: 40px;
+	font-weight: 700;
+	font-family: 'Poppins', sans-serif;
+}
+header{
+	display: none;
+		background-color: #03256C;
+		height: 50px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 1;
+}
+header p{
+	font-size: 22px;
+	line-height: 50px;
+	color:white;
+	text-decoration: none;
+	padding: 0  0 0 20px;
+	font-family: 'Noto Sans TC',sans-serif;
+	font-weight: 400;
+}
+header a{
+ font-size: 16px;
+ line-height: 50px;
+ color:white;
+ padding: 0  0 0 20px;
+ font-family: 'Noto Sans TC',sans-serif;
+ font-weight: 400;
+}
+
+header p span{
+	font-weight: 700;
+}
+
+footer{
+	background-color: #03256C;
+	height: 50px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+footer div{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+footer a{
+	line-height: 50px;
+	color:white;
+	padding: 0 20px 0 0;
+}
+.title{
+	position: fixed;
+	top:6%;
+	left:5%;
+	animation:fade-in 1.5s ease-in-out;
+
+}
+
+.title h1{
+	font-size: 60px;
+	font-family: 'Poppins', sans-serif;
+	line-height: 70px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	margin: 0 0 10px 0;
+}
+
+
+.title h1 span{
+	font-size: 50px;
+	line-height: 60px;
+	letter-spacing: 6px;
+	font-weight: 600;
+	font-family: "Noto Sans TC","微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", sans-serif;
+}
+.title h1 a{
+	font-size: 20px;
+	line-height: 20px;
+	letter-spacing: 0px;
+	font-weight: 600;
+	margin: 0 0 0 20px;
+	vertical-align: middle;
+	color:inherit;
+	font-family: "Noto Sans TC","微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", sans-serif;
+	transition: color 200ms ease-out;
+	text-decoration: underline;
+
+}
+.title h1 a:hover{
+	color:#2F73ED;
+}
+
+
+
+.title li{
+	font-size: 26px;
+	line-height: 40px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	color:inherit;
+	text-decoration: none;
+
+	font-family: "Noto Sans TC","微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", sans-serif;
+
+}
+
+.category-design{
+	position: fixed;
+	top:40%;
+	left:15%;
+	animation: in-design 800ms ease-in-out;
+	animation-delay: 300ms;
+	animation-fill-mode:backwards;
+}
+@keyframes in-design {
+	0%{
+		opacity: 0%;
+		left:23%;
+	}
+	100%{
+		opacity: 100%;
+		left:15%;
+	}
+}
+.category-marketing{
+	position: fixed;
+	top:10%;
+	right:25%;
+	animation: in-marketing 800ms ease-in-out;
+	animation-delay: 400ms;
+	animation-fill-mode:backwards;
+}
+@keyframes in-marketing {
+	0%{
+		right:17%;
+		opacity: 0%;
+
+	}
+	100%{
+		right:25%;
+		opacity: 100%;
+
+	}
+}
+.category-frontend{
+	position: fixed;
+	top:55%;
+	right:15%;
+	animation: in-frontend 800ms ease-in-out;
+	animation-delay: 500ms;
+	animation-fill-mode:backwards;
+	}
+	@keyframes in-frontend {
+	0%{
+		right:7%;
+		opacity: 0%;
+
+	}
+	100%{
+		right:15%;
+		opacity: 100%;
+
+	}
+	}
+
+@keyframes img-flow{
+	0%{
+		top:0px;
+	}
+	50%{
+		top:25px;
+	}
+	100%{
+		top:0px;
+	}
+}
+.category-design-img{
+	position: absolute;
+	left:120%;
+	fill:#03256C;
+	animation: img-flow 2.8s infinite ease-in-out;
+	animation-delay: 1s;
+}
+.category-marketing-img{
+	position: absolute;
+	left:-50%;
+	fill:#03256C;
+	animation: img-flow 3.2s infinite ease-in-out;
+	animation-delay: 1s;
+
+}
+.category-frontend-img{
+	position: absolute;
+	left:-50%;
+	fill:none;
+	stroke:#03256C;
+	stroke-width:6px;
+	animation: img-flow 4s infinite ease-in-out;
+	animation-delay: 1s;
+
+}
+
+
+.category h2{
+	font-size: 50px;
+	line-height: 70px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	margin: 0 0 5px 0;
+	transition: color 300ms ease-out;
+}
+
+
+.category h2:hover{
+	color:#2F73ED;
+}
+
+.category .icon{
+	font-size: 40px;
+	line-height: 80px;
+	margin: 0 0 0 10px;
+}
+.category li{
+	font-size: 26px;
+	letter-spacing: 1px;
+	line-height: 42px;
+	margin: 0 0 0 20px;
+	font-weight: 700;
+	font-family: 'Poppins', sans-serif;
+
+}
+@media (max-width:1600px) {
+	.title{
+		left: 35%;
+		position: relative;
+		margin: 40px 0 0 0;
+		padding: 0 0 0 40px;
+	}
+
+	.title h1{
+		font-size: 46px;
+		line-height: 50px;
+		letter-spacing: 1px;
+
+	}
+
+
+	.title h1 span{
+		font-size: 36px;
+		line-height: 40px;
+		letter-spacing: 5px;
+}
+	.title h1 a{
+		font-size: 15px;
+		line-height: 10px;
+		letter-spacing: 0px;
+		text-decoration: underline;
+
+	}
+
+
+	.title li{
+		font-size: 18px;
+		line-height: 28px;
+		letter-spacing: 2px;
+	}
+
+
+	.category .icon{
+		font-size: 36px;
+		line-height: 40px;
+		margin: 0 0 0 10px;
+		transition : margin 300ms  ease-out;
+	}
+	.category .icon:hover{
+		margin: 0 0 0 25px;
+		color: inherit;
+	}
+
+	.category h2{
+		font-size: 32px;
+		line-height: 46px;
+		letter-spacing: 1px;
+	}
+	.category h2:hover{
+		color: inherit;
+	}
+	.category h2 span{
+		transition: margin 300ms ease-out;
+	}
+	.category h2 span:hover{
+		margin: 0 25px 0 0;
+	}
+
+	.category li{
+		font-size: 17px;
+		line-height: 30px;
+	}
+	.category-container{
+		width: 100%;
+		height: 500px;
+		display: flex;
+		flex-direction: row;
+		padding: 0 0 0 8%;
+
+	}
+	.category{
+		position: inherit;
+		width: 33%;
+		margin: 0px 0 0 20px ;
+	}
+
+	.category-design-img{
+		position:relative;
+		left: -120px;
+		margin: 0 auto;
+		height: 200px;
+
+		transform: scale(0.3);
+		animation-duration: 3s;
+	}
+
+	.category-marketing-img, .category-frontend-img{
+		position:relative;
+		left: -100px;
+		margin: 0 auto;
+		transform: scale(0.3);
+		animation-duration: 3s;
+		height: 200px;
+
+	}
+}
+@media (max-width:900px) {
+header{
+	display: block;
+}
+header a{
+	text-decoration: underline;
+
+}
+
+	.title{
+		display: none;
+	}
+	.category{
+		margin:0;
+	}
+	.category-design-img{
+		height: 230px;
+	}
+	.category-marketing-img, .category-frontend-img{
+		height: 200px;
+	}
+	.category-container{
+		height: 1400px;
+		flex-direction: column;
+		margin: 0;
+	 justify-content:flex-start;
+	}
+	.category-design, .category-marketing, .category-frontend{
+		margin: 10px auto;
+		width: 400px;
+	}
+	.category-frontend{
+	 align-self:flex-end;
+ }
+
+ }
+
+@media (max-width:450px) {
+	header p{
+		font-size: 16px;
+	}
+	header a{
+		font-size: 12px;
+		letter-spacing: 0;
+		text-decoration: underline;
+
+	}
+}

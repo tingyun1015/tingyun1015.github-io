@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+	font-family: "Noto Sans TC","微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", sans-serif;
+	letter-spacing: 1.5px;
+		color: #03256C;
+		list-style: none;
+}
+header{
+	height: 100px;
+	padding: 20px 0 0 0;
+	width: 100%;
+	background-color: inherit;
+	position: fixed;
+	top: 0;
+	white-space:nowrap;
+
+}
+
+header .container{
+	display: flex;
+	width: 1400px;
+	height: 100px;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.header-left{
+	width: 48%;
+}
+.header-right{
+	width: 48%;
+	text-align: right;
+}
+.header-right h5{
+	font-size: 26px;
+}
+.header-center{
+	padding:40px 0;
+	text-align: center;
+	align-self:flex-start;
+	font-size: 38px;
+	line-height: 38px;
+	font-weight: 400;
+	margin: 0 6px 0 0 ;
+	transform: rotate(270deg);
+	transition: margin 300ms ease-in-out;
+}
+
+.header-center:hover{
+	margin:0 6px 22px 0;
+	color: #2F73ED;
+}
+.container{
+		width: 1400px;
+	display: block;
+	margin: 0 auto;
+}
+h1,h5{
+	font:700 28px/35px 'Noto Sans TC', sans-serif;
+	letter-spacing: 0.5px;
+
+}
+h6{
+	font:400 20px/30px 'Noto Sans TC', sans-serif;
+	letter-spacing: 0px;
+}
+.works{
+	background: rgba(255,255,255,0.9);
+	padding: 0 5% 3% 5%;
+	margin: 100px 0 0 0;
+
+}
+.intro{
+	padding: 50px 0 0 0;
+	width: auto;
+	height: auto;
+}
+p{
+	font-size: 16px;
+		color:rgba(0,0,0,0.9);
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 1px;
+	margin: 5px 0 20px 0;
+	text-align:justify;
+}
+h2{
+	font: 700 24px/40px 'Noto Sans TC', sans-serif;
+}
+.part-0{
+	margin: 0 0 70px 0;
+}
+.topic{
+	margin: 50px 0;
+
+}
+.topic li{
+	width: 130px;
+	height: 130px;
+	border-radius:10px 0 10px  0 ;
+	background: #03256C;
+	color: white;
+	font: 700 23px/120px 'Noto Sans TC', sans-serif;
+	text-align: center;
+	transition: background 500ms ease-in-out;
+}
+.topic li:hover{
+	background:#2F73ED;
+}
+
+.flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 50px 0;
+}
+h5{
+  font-size: 17px;
+  letter-spacing: 0.2px;
+}
+.img{
+	display: block;
+	margin: 20px auto;
+	width: 1000px;
+
+}
+.logo{
+	width:70px;
+	height: auto;
+}
+.intro a{
+  text-align: center;
+}
+.part a, .intro a{
+  color: inherit;
+  transition: color 200ms ease-in-out;
+}
+.part a:hover, .intro a:hover{
+  color: #2F73ED;
+}
+
+.target-fix {
+    position: relative;
+    top: -160px;
+    display: block;
+    visibility: hidden;
+}
+.part{
+	margin: 100px 0;
+}
+
+.part a{
+	text-align: center;
+}
+
+
+.video{
+  margin: 50px auto;
+}
+.video p{
+	text-align: center;
+}
+h3{
+	font: 700 25px/46px 'Noto Sans TC', sans-serif;
+	color: #2F73ED;
+	text-align: center;
+
+}
+.part li{
+	font: 400 17px/24px 'Noto Sans TC', sans-serif;
+	letter-spacing: 1px;
+	list-style: circle;
+	color: rgba(0,0,0,1);
+	margin: 0 0 10px 0;
+}
+
+h4{
+	font: 700 18px/40px 'Noto Sans TC', sans-serif;
+	margin: 10px 0 0 0;
+
+}
+iframe{
+  display: block;
+  margin: 0 auto;
+}
+
+.part-end{
+	margin: 70px 0 0 0;
+	white-space:nowrap;
+	display: flex;
+
+}
+.part-end .header-left .icon{
+	margin: 0 10px 0 0;
+}
+.part-end .header-right .icon{
+	margin: 0 0 0 10px ;
+}
+.part-end a{
+	color: inherit;
+	transition: color 300ms ease-in-out;
+}
+.part-end a:hover{
+	color: #2F73ED;
+}
+
+
+footer{
+	background-color: #03256C;
+	height: 50px;
+	width: 100%;
+	text-align: right;
+
+}
+footer a{
+	line-height: 50px;
+	color:white;
+	padding: 0 20px 0 0;
+}
+@media (max-width:1400px) {
+	.container{
+		width: 100%;
+	}
+	header .container{
+		width: 94%;
+	}
+
+}
+@media (max-width:900px) {
+	.topic{
+		margin: 50px 0;
+	}
+
+	.flex{
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.topic li{
+		width: 100%;
+		height: 60px;
+		font: 600 20px/60px 'Noto Sans TC', sans-serif;
+		border-radius: 3px;
+		margin: 0 0 20px 0;
+	}
+	.part-0{
+		margin: 0 0 30px 0;
+	}
+	iframe{
+		width: 100%;
+	}
+}
+@media (max-width:550px) {
+	header h1{
+		font-size: 20px;
+	}
+ .header-right h5{
+		font-size: 20px;
+	}
+	header h6{
+		display: none;
+	}
+
+}
