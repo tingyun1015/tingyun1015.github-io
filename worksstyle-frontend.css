@@ -1,0 +1,55 @@
+.center{
+  text-align: center;
+}
+.mockup-desktop{
+  width: 65%;
+  height: 450px;
+  overflow-y: scroll;
+  background: #ddd;
+  box-shadow: rgba(100, 100, 100, 0.5) 0 0 20px;
+  display: block;
+  margin: 0px auto;
+}
+.mockup-desktop-02{
+  width: 95%;
+  height: 450px;
+  overflow-y: scroll;
+  background: #ddd;
+  box-shadow: rgba(100, 100, 100, 0.5) 0 0 20px;
+  display: block;
+  margin: 50px auto;
+}
+.mockup-desktop-02 img{
+  width: 100%;
+
+}
+.mockup-desktop img{
+  width: 100%;
+}
+.mockup-phone{
+  width: 25%;
+  height: 450px;
+  overflow-y: scroll;
+  background: #ddd;
+  box-shadow: rgba(100, 100, 100, 0.5) 0 0 20px;
+  display: block;
+  margin: 0px auto;
+}
+.mockup-phone img{
+  width: 100%;
+}
+.part h5{
+  text-align: center;
+}
+.codepen-width{
+  width: 45%;
+}
+.flex-ui{
+  display: flex;
+  margin: 50px 0;
+}
+@media (max-width:900px) {
+  .codepen-width{
+    width: 100%;
+  }
+}
