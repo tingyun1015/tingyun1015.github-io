@@ -44,10 +44,25 @@
 .codepen-width{
   width: 45%;
 }
+.codepen-component{
+  width: 85%;
+  display: block;
+  margin: 2% auto;
+}
+
 .flex-ui{
   display: flex;
   margin: 50px 0;
 }
+
+.intro{
+  text-align: center;
+  padding: 100px 0 0 0;
+}
+.intro p{
+  text-align: center;
+}
+
 @media (max-width:900px) {
   .codepen-width{
     width: 100%;
